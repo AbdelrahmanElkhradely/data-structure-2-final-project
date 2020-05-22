@@ -74,8 +74,6 @@ public class Graph<I extends Number> {
             }
         }
 
-        // Decrement the count of number of edges
-        // and mark current vertex as unvisited
         visited[src] = false;
         edgecount--;
     }
